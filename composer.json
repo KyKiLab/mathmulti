@@ -1,0 +1,21 @@
+{
+    "name": "domains/mathmulti",
+    "description": "Test mathematical multiplication package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kykilab",
+            "email": "kykilab@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "7.4.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "domains\\mathmulti\\": "src"
+        }
+    }
+}
